@@ -1,0 +1,182 @@
+
+
+section {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left-side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.profile-Text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-Text .image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-Text .image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-Text h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600px;
+    line-height: 16px;
+}
+
+.profile-Text h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 10px;
+}
+.contact-info{
+    padding-top: 25px;
+    color: #fff;
+}
+
+
+
+.description {
+    color: #fff;
+    /* text-transform: uppercase; */
+    font-weight: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.contact-info .description{
+    position: relative;
+}
+.icon {
+    display: inline-block;
+    font-size: 16px;
+    color: lightblue;
+}
+.description .icon-text {
+    display: inline;
+    padding-left: 10px;
+
+}
+
+.contact-eduinfo{
+    padding-top: 20px;
+    color: #fff;
+}
+.contact-eduinfo span{
+    line-height: 30px;
+    font-size: 15px;
+
+}
+.contact-eduinfo h5{
+    color: gray;
+    padding-bottom: -15px;
+}
+
+.contact-lang {
+    color: #fff;
+    padding-top: 20px;
+}
+.contact-lang span{
+    line-height: 30px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+/* right side */
+
+.container .right-side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about {
+    margin-bottom: 35px;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year-company{
+    min-width: 150px;
+}
+
+.about .box .year-company{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 60px;
+}
+
+.about .box .text h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+.about-skill .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px; 
+}
+
+.about-skill .box h4 {
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
