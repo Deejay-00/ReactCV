@@ -103,12 +103,17 @@ section {
 .icon {
     display: inline-block;
     font-size: 16px;
-    color: lightblue;
+    /* color: #003147; */
+    margin-right: 15px;
 }
 .description .icon-text {
     display: inline;
     padding-left: 10px;
 
+}
+
+.icons{
+    margin-right: 10px;
 }
 
 .contact-eduinfo{
@@ -185,14 +190,15 @@ section {
     text-justify: inter-word;
 }
 
-.skill .box{
+.boxx{
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: repeat(3,1fr);
     justify-content: center;
     align-items: center;
-    line-height: 2px;  
+    line-height: 2px;
+    padding-left: 63px;  
 }
 
 .skill .box h4 {
@@ -202,12 +208,12 @@ section {
     /* letter-spacing: 2px; */
 }
 
-.skill .box .percent {
+/* .skill .box .percent {
     position: relative;
     width: 100%;
     height: 10px;
     background: #f0f0f0;
-}
+} 
 
 .skill .box .percent div {
     position: absolute;
@@ -215,7 +221,7 @@ section {
     left: 0;
     height: 100%;
     background: #03a9f4;
-}
+}*/
 
 .interest ul {
     display: grid;
