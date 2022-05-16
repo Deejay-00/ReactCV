@@ -256,3 +256,15 @@ section {
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+@media (max-width: 600px){
+    .interest ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxx{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+}
