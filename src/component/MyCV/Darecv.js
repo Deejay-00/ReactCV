@@ -7,18 +7,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Darecv() {
     return (
         <div>
-            <label className="switch">
-                <input type="checkbox" checked />
-                <span className="slider round"></span>
-            </label>
+
 
             <section id="main_content">
+                <label className="switch">
+                    <input type="checkbox" checked />
+                    <span className="slider round"></span>
+                </label>
                 <div className="container">
                     <div className="left-side">
                         <div className="profile-Text">
 
                             <div className="image">
-                                <img src={require('./image/cv1.jpeg')} alt={('')} />
+                                <img src={require('./image/cv3.jpg')} alt={('')} />
                             </div>
                             <h2> Dare Jamiu </h2>
                             <h3> Frontend Developer</h3>
@@ -126,27 +127,14 @@ function Darecv() {
                                 </div>
                                 <div className="box">
                                     <h4>JavaScript</h4>
-                                    <div className="percent">
-                                        {/* <div style={{width: '20%'}}></div> */}
-                                    </div>
                                 </div>
                                 <div className="box">
                                     <h4>React</h4>
-                                    <div className="percent">
-                                        {/* <div style={{ width: '45%' }}></div> */}
-                                    </div>
                                 </div>
                                 <div className="box">
-                                    <h4>Git</h4>
-                                    <div className="percent">
-                                        {/* <div style={{width: '65%'}}></div> */}
-                                    </div>
                                 </div>
                                 <div className="box">
                                     <h4>Photoshop</h4>
-                                    <div className="percent">
-                                        {/* <div style={{width: '65%'}}></div> */}
-                                    </div>
                                 </div>
 
                             </div>
@@ -171,27 +159,21 @@ function Darecv() {
 
                 <h1> My cover Letter </h1>
 
-                <p>Dear HR,<br/>
+                <p>Dear HR,<br />
 
-                This letter is to express my interest on your the job posted for an experienced, detailed-oriented, front-end web developer. <br/>
-                As you'll see, I have a quality years of hands-on experience efficiently coding websites and applications using modern<br />
-                HTML, CSS, and JavaScript and React. Building an articulated, easy to use, user-friendly websites and applications is truly<br />
-                a passion of mine and I am confident I would be an excellent addition to your organization. <br/>
-                Thank you for your time and consideration. I look forward to speaking with you about this opportunity.
-                <br/>Best regards,
-                <br/>Dare Jamiu </p>
+                    This letter is to express my interest on your the job procession for an experienced, detailed-oriented, front-end web developer. <br />
+                    As you'll see, I have a quality years of hands-on experience efficiently coding websites and applications using modern<br />
+                    HTML, CSS, JavaScript and React. Building an articulated, easy to use, user-friendly websites and applications is truly<br />
+                    a passion of mine and I am confident I would be an excellent addition to your organization. <br />
+                    Thank you for your time and consideration. I look forward to speaking with you about this opportunity.
+                <br />Best regards,
+                <br />Dare Jamiu </p>
             </section>
         </div>
 
         //  JavaScript Content
 
-         let mainContent = document.querySelector('#main_content');
-         let secondaryContent = document.querySelector('#secondary_content');
 
-         document.querySelector('.switch input').addEventListener('change', e => { 
-         mainContent.style.display = e.target.checked ? 'block' : 'none';
-         secondaryContent.style.display = e.target.checked ? 'none' : 'block';
-         });
 
 
     )
