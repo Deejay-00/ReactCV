@@ -131,7 +131,8 @@ function Darecv() {
                                 <div className="box">
                                     <h4>React</h4>
                                 </div>
-                                <div className="box">
+                                <div className="box">   
+                                    <h4>Git</h4>
                                 </div>
                                 <div className="box">
                                     <h4>Photoshop</h4>
